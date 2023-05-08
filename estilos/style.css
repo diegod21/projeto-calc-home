@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    margin: auto;
+    padding: 10px;
+
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+.bills{
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bills input{
+    width: 50%;
+}
+.calc{
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: blue;
+    width: 50%;
+}
+.btn-add{
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: red;
+    width: 50%;
+}
+.btn-add:hover{
+    
+    background-color: rgb(141, 0, 0);
+}
+.newBill{
+    display: none;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="bills" id="bills">
+
+            <label for="home">casa</label>
+            <input type="number" name="casa" id="0">
+            
+
+
+        </div>
+
+        <div class="calc" onclick="calcAll()">Calcular</div>
+        <div class="btn-add" onclick="askBill()">Adicionar conta +</div>
+
+        <div class="newBill" id="newBill">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+
+
+            <button onclick="addBill()">Confirmar</button>
+        </div>
+    </div>
+
+    <script src="Script/index.js"></script>
+</body>
+</html>
