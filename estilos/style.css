@@ -1,15 +1,20 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap');
 *{
     padding: 0px;
     margin: 0px;
+    font-family: 'Sora', sans-serif;
 }
 .container{
-    margin: auto;
-    padding: 10px;
 
-    border: 1px solid black;
-    width: 500px;
-    height: 500px;
+    background-color: #53735D;
+    width: 100vw;
+    height: 100vh;
     text-align: center;
+}
+.container > input {
+    max-width: 450px;
+    border: none;
 }
 .bills{
     padding: 10px;
@@ -27,8 +32,13 @@
     margin-bottom: 5px;
     padding: 5px;
     text-align: center;
-    background-color: blue;
-    width: 50%;
+    background-color: #3A40F2;
+    max-width: 350px;
+    color: white;
+    border-radius: 7px;
+}
+.calc:hover{
+    background-color: #1C1E73;
 }
 .btn-add{
     margin: auto;
@@ -37,7 +47,9 @@
     padding: 5px;
     text-align: center;
     background-color: red;
-    width: 50%;
+    max-width: 350px;
+    color: white;
+    border-radius: 7px;
 }
 .btn-add:hover{
     
@@ -45,4 +57,7 @@
 }
 .newBill{
     display: none;
+}
+button{
+    background-color: black;
 }

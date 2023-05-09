@@ -1,5 +1,10 @@
 var tempid = 1;
+var total = 0;
 
+function result(){
+    let divRes = document.getElementById("resultado");
+    divRes.innerHTML = `<p>O resultado é ${total}</p>`
+}
   
 function calcAll(){
     let valores = [];
@@ -8,7 +13,6 @@ function calcAll(){
         valores.push(Number(input.value));
     }
     console.log(valores)
-    let total = 0;
     for (let j = 0; j < valores.length; j++){
         let h = j + 1
         if (h < valores.length) {
@@ -19,6 +23,7 @@ function calcAll(){
         }}
     }
     console.log(total)
+    result();
 }
 function askBill(){
     let nb = document.getElementById("newBill")
