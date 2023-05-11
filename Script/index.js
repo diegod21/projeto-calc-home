@@ -3,7 +3,7 @@ var total = 0;
 
 function result(){
     let divRes = document.getElementById("resultado");
-    divRes.innerHTML = `<p>O resultado é ${total}</p>`
+    divRes.innerHTML = `<p>O resultado é ${total} e a divisão é ${total/2}</p>`
 }
   
 function calcAll(){
